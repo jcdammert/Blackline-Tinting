@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 
@@ -14,8 +15,7 @@ export default function Header() {
     <header className="header">
       <nav className="nav container">
         <Link href="/" className="logo">
-          <span className="logo-icon">BL</span>
-          <span className="logo-text">Black<span className="text-blue">Line</span> Tinting</span>
+          <Image src="/blackline-logo.png" alt="BlackLine Tinting" width={180} height={48} priority />
         </Link>
         <button
           className="mobile-toggle"
@@ -58,3 +58,19 @@ export default function Header() {
     </header>
   )
 }
+```
+
+Then do the same for **src/components/Footer.tsx** — just replace the logo part. Find these lines:
+```
+<span className="logo-icon">BL</span>
+<span className="logo-text">Black<span className="text-blue">Line</span> Tinting</span>
+```
+
+And replace them with:
+```
+<Image src="/blackline-logo.png" alt="BlackLine Tinting" width={160} height={42} />
+```
+
+And add this import at the top of Footer.tsx:
+```
+import Image from 'next/image'
