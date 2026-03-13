@@ -13,9 +13,8 @@ export default function Quote() {
     const form = e.currentTarget
     const data = new FormData(form)
 
-    // POST to GHL webhook — replace with your actual webhook URL
     try {
-      await fetch('https://services.leadconnectorhq.com/hooks/YOUR_WEBHOOK_ID', {
+      await fetch('https://services.leadconnectorhq.com/hooks/WW2K840JVLSOPOTKsMfb/webhook-trigger/69a370f7-71bf-4fec-8ccf-948fcc9ef2dc', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
