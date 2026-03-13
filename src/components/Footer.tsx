@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 const browardCities = [
   { name: 'Weston', slug: 'weston' }, { name: 'Davie', slug: 'davie' },
@@ -31,8 +32,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <Link href="/" className="logo">
-              <span className="logo-icon">BL</span>
-              <span className="logo-text">Black<span className="text-blue">Line</span> Tinting</span>
+              <Image src="/blackline-logo.png" alt="BlackLine Tinting" width={160} height={42} />
             </Link>
             <p>Professional auto window tinting serving South Florida. Lifetime warranty on every installation.</p>
             <div className="footer-contact">
