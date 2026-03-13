@@ -1,0 +1,226 @@
+export const services = [
+  {
+    name: 'Ceramic Window Tint',
+    slug: 'ceramic-window-tint',
+    tagline: 'Best Seller — Ultimate Heat Rejection & UV Protection',
+    description: 'Our premium ceramic window tint uses advanced nano-ceramic technology to block up to 99% of harmful UV rays while rejecting more heat than any other film on the market. Perfect for Florida\'s intense sun.',
+    metaTitle: 'Ceramic Window Tint | BlackLine Tinting | South Florida',
+    metaDesc: 'Premium ceramic window tint in South Florida. Advanced nano-ceramic technology blocks 99% UV rays with superior heat rejection. Lifetime warranty. Free quote.',
+    whyHeading: 'Why Ceramic Window Tint Matters for Florida Drivers',
+    whyText: 'Ceramic window tint is the gold standard for drivers who want the best protection against Florida\'s brutal heat and UV rays. Unlike dyed or metallic films, ceramic tint uses nano-ceramic particles that don\'t interfere with your phone, GPS, or radio signals. It provides the highest heat rejection available while maintaining perfect optical clarity. Whether you\'re commuting through Fort Lauderdale traffic or cruising down I-95, ceramic tint keeps your interior cool, protects your skin, and preserves your dashboard and seats from sun damage.',
+    benefits: [
+      'Blocks up to 99% of harmful UV rays',
+      'Superior heat rejection — keeps your car significantly cooler',
+      'Crystal-clear visibility with no signal interference',
+      'Won\'t fade, bubble, or peel — guaranteed',
+      'Reduces glare for safer, more comfortable driving',
+      'Lifetime warranty on every installation',
+    ],
+    ctaHeading: 'Transparent Pricing, No Surprises',
+    ctaText: 'Contact us with your vehicle details for a free, no-obligation quote. Every installation comes with our lifetime warranty — no bubbles, no peeling, no fading, guaranteed.',
+  },
+  {
+    name: 'Carbon Window Tint',
+    slug: 'carbon-window-tint',
+    tagline: 'Premium Protection at a Better Price',
+    description: 'Carbon window tint offers excellent heat reduction and UV protection with a sleek matte finish. A smart choice for Florida drivers who want premium quality without the top-tier price tag.',
+    metaTitle: 'Carbon Window Tint | BlackLine Tinting | South Florida',
+    metaDesc: 'Professional carbon window tint in South Florida. Excellent heat rejection, matte finish, and UV protection at a great price. Lifetime warranty. Free quote.',
+    whyHeading: 'Why Carbon Window Tint Is a Smart Choice',
+    whyText: 'Carbon window tint delivers impressive performance at a price point that makes sense for most drivers. The carbon particles embedded in the film give it a distinctive matte finish that looks sharp on any vehicle, while providing solid heat rejection and UV protection. It won\'t fade to purple like cheaper dyed films, and it won\'t interfere with your electronics like metallic tints can. For South Florida drivers who want a great-looking, long-lasting tint without paying for the absolute top-of-the-line ceramic, carbon is the way to go.',
+    benefits: [
+      'Blocks up to 97% of harmful UV rays',
+      'Excellent heat rejection at a great price point',
+      'Fade-proof matte finish that looks sharp for years',
+      'No electronic signal interference',
+      'Reduces interior fading and cracking',
+      'Lifetime warranty on every installation',
+    ],
+    ctaHeading: 'Transparent Pricing, No Surprises',
+    ctaText: 'Contact us with your vehicle details for a free, no-obligation quote. Every installation comes with our lifetime warranty — no bubbles, no peeling, no fading, guaranteed.',
+  },
+  {
+    name: 'Paint Protection Film (PPF)',
+    slug: 'paint-protection-film',
+    tagline: 'Invisible Armor for Your Paint',
+    description: 'Paint Protection Film is a virtually invisible urethane film that shields your vehicle\'s paint from rock chips, scratches, bug splatter, and road debris. Keep your car looking showroom-new.',
+    metaTitle: 'Paint Protection Film (PPF) | BlackLine Tinting | South Florida',
+    metaDesc: 'Professional paint protection film in South Florida. Invisible shield against rock chips, scratches, and road debris. Self-healing technology. Free quote.',
+    whyHeading: 'Why Paint Protection Film Is Essential in South Florida',
+    whyText: 'South Florida roads are tough on your paint. Between highway debris on I-95 and the Turnpike, construction zones across Broward County, bug splatter from the Everglades, and the relentless Florida sun, your paint is under constant attack. Paint Protection Film creates an invisible barrier that absorbs the impact so your paint doesn\'t have to. The self-healing technology means minor scratches disappear on their own with heat, keeping your vehicle looking pristine for years.',
+    benefits: [
+      'Invisible protection against rock chips and road debris',
+      'Self-healing technology — minor scratches disappear with heat',
+      'UV-resistant clear coat prevents yellowing',
+      'Preserves your vehicle\'s resale value',
+      'Custom precision-cut for your exact vehicle model',
+      'Professional installation with warranty coverage',
+    ],
+    ctaHeading: 'Transparent Pricing, No Surprises',
+    ctaText: 'Contact us with your vehicle details for a free, no-obligation quote. Every installation comes with our lifetime warranty.',
+  },
+  {
+    name: 'Windshield Tint',
+    slug: 'windshield-tint',
+    tagline: 'Reduce Glare & Heat Through Your Front Glass',
+    description: 'Windshield tint reduces blinding glare and cabin heat while protecting you from UV exposure. We offer Florida-legal options that keep you safe, comfortable, and compliant.',
+    metaTitle: 'Windshield Tint | BlackLine Tinting | South Florida',
+    metaDesc: 'Professional windshield tinting in South Florida. Reduce glare and heat with Florida-legal options. Crystal-clear visibility maintained. Free quote.',
+    whyHeading: 'Why Windshield Tint Makes a Difference',
+    whyText: 'Your windshield is the largest piece of glass on your vehicle, and it\'s where the majority of heat and glare enter your cabin. Even with tinted side and rear windows, an untreated windshield can let in massive amounts of heat and UV radiation. Our windshield tint solutions use advanced ceramic technology that blocks heat and UV rays while maintaining crystal-clear visibility. We offer Florida-legal options so you get the protection without the risk.',
+    benefits: [
+      'Dramatically reduces cabin heat from the front',
+      'Blocks harmful UV rays that cause skin damage',
+      'Reduces blinding glare from the sun and headlights',
+      'Florida-legal options available',
+      'Crystal-clear visibility maintained',
+      'Lifetime warranty on every installation',
+    ],
+    ctaHeading: 'Transparent Pricing, No Surprises',
+    ctaText: 'Contact us with your vehicle details for a free, no-obligation quote. Every installation comes with our lifetime warranty.',
+  },
+  {
+    name: 'Ceramic Coating',
+    slug: 'ceramic-coating',
+    tagline: 'Long-Lasting Shine & Paint Protection',
+    description: 'Professional ceramic coating creates a hydrophobic, high-gloss shield over your vehicle\'s paint. It repels water, dirt, and contaminants while delivering a deep, mirror-like shine that lasts for years.',
+    metaTitle: 'Ceramic Coating | BlackLine Tinting | South Florida',
+    metaDesc: 'Professional ceramic coating in South Florida. Long-lasting hydrophobic protection, UV resistance, and a mirror-like shine. Get a free quote today.',
+    whyHeading: 'Why Ceramic Coating Outperforms Traditional Wax',
+    whyText: 'Traditional wax and sealants wash off within weeks, leaving your paint exposed to Florida\'s harsh elements. Ceramic coating is a semi-permanent bond that chemically adheres to your paint, creating a glass-like layer of protection that lasts for years. It repels water, dirt, bird droppings, and tree sap on contact, making your car dramatically easier to clean while maintaining a deep, glossy finish that turns heads.',
+    benefits: [
+      'Hydrophobic coating repels water and contaminants',
+      'UV protection prevents paint oxidation and fading',
+      'Deep, mirror-like gloss that lasts for years',
+      'Makes washing easier — dirt slides right off',
+      'Protects against bird droppings, tree sap, and road grime',
+      'Professional-grade application with warranty',
+    ],
+    ctaHeading: 'Transparent Pricing, No Surprises',
+    ctaText: 'Contact us with your vehicle details for a free, no-obligation quote.',
+  },
+  {
+    name: 'Commercial Vehicle Tinting',
+    slug: 'commercial-vehicle-tinting',
+    tagline: 'Professional Tinting for Your Business Fleet',
+    description: 'We provide professional window tinting for commercial fleets, work vans, company cars, and business vehicles. Bulk pricing available with consistent quality across every vehicle.',
+    metaTitle: 'Commercial Vehicle Tinting | BlackLine Tinting | South Florida',
+    metaDesc: 'Professional fleet window tinting in South Florida. Bulk pricing, consistent quality, flexible scheduling. Lifetime warranty on every vehicle.',
+    whyHeading: 'Why Businesses Choose BlackLine for Fleet Tinting',
+    whyText: 'Managing a fleet in South Florida means your vehicles take a beating from the sun every single day. Heat buildup destroys interiors, fades company branding, and makes your drivers uncomfortable on long routes. BlackLine offers bulk fleet tinting with consistent quality across every vehicle, flexible scheduling to minimize downtime, and a lifetime warranty that protects your investment. Whether you have 5 vehicles or 50, we\'ll get them all done right.',
+    benefits: [
+      'Bulk pricing for fleets of all sizes',
+      'Consistent quality across every vehicle',
+      'Flexible scheduling to minimize downtime',
+      'Protects vehicle interiors and company branding',
+      'Keeps drivers cooler and more comfortable',
+      'Lifetime warranty on every installation',
+    ],
+    ctaHeading: 'Transparent Pricing, No Surprises',
+    ctaText: 'Contact us with your fleet details for a free, no-obligation quote. Every installation comes with our lifetime warranty.',
+  },
+]
+
+export const counties = {
+  'broward-county': {
+    name: 'Broward County',
+    metaTitle: 'Window Tinting in Broward County, FL | BlackLine Tinting',
+    metaDesc: 'Professional window tinting across Broward County. Ceramic & carbon tint, PPF, ceramic coating. Lifetime warranty. Serving Weston, Fort Lauderdale, Pembroke Pines & more.',
+    introHeading: 'Window Tinting Across Broward County',
+    introText: 'BlackLine Tinting is Broward County\'s trusted source for premium window tinting, paint protection film, and ceramic coating. From Weston to Fort Lauderdale, Pembroke Pines to Coral Springs, we serve every community in Broward with the same commitment to quality and customer satisfaction.',
+    cities: [
+      { name: 'Weston', slug: 'weston' }, { name: 'Davie', slug: 'davie' },
+      { name: 'Plantation', slug: 'plantation' }, { name: 'Sunrise', slug: 'sunrise' },
+      { name: 'Pembroke Pines', slug: 'pembroke-pines' }, { name: 'Miramar', slug: 'miramar' },
+      { name: 'Southwest Ranches', slug: 'southwest-ranches' }, { name: 'Cooper City', slug: 'cooper-city' },
+      { name: 'Coral Springs', slug: 'coral-springs' }, { name: 'Parkland', slug: 'parkland' },
+      { name: 'Tamarac', slug: 'tamarac' }, { name: 'Lauderhill', slug: 'lauderhill' },
+      { name: 'Fort Lauderdale', slug: 'fort-lauderdale' }, { name: 'Hollywood', slug: 'hollywood' },
+      { name: 'Coconut Creek', slug: 'coconut-creek' },
+    ],
+  },
+  'miami-dade-county': {
+    name: 'Miami-Dade County',
+    metaTitle: 'Window Tinting in Miami-Dade County, FL | BlackLine Tinting',
+    metaDesc: 'Professional window tinting across Miami-Dade County. Ceramic & carbon tint, PPF, ceramic coating. Lifetime warranty. Serving Miami, Doral, Hialeah & more.',
+    introHeading: 'Window Tinting Across Miami-Dade County',
+    introText: 'BlackLine Tinting serves Miami-Dade County with premium window tinting, paint protection film, and ceramic coating. From Miami to Doral, Hialeah to Homestead, we bring the same quality and lifetime warranty to every installation.',
+    cities: [
+      { name: 'Miami', slug: 'miami' }, { name: 'Miami Lakes', slug: 'miami-lakes' },
+      { name: 'Miami Gardens', slug: 'miami-gardens' }, { name: 'Hialeah', slug: 'hialeah' },
+      { name: 'Doral', slug: 'doral' }, { name: 'Homestead', slug: 'homestead' },
+      { name: 'Kendall', slug: 'kendall' },
+    ],
+  },
+  'palm-beach-county': {
+    name: 'Palm Beach County',
+    metaTitle: 'Window Tinting in Palm Beach County, FL | BlackLine Tinting',
+    metaDesc: 'Professional window tinting across Palm Beach County. Ceramic & carbon tint, PPF, ceramic coating. Lifetime warranty. Serving Boca Raton, West Palm Beach & more.',
+    introHeading: 'Window Tinting Across Palm Beach County',
+    introText: 'BlackLine Tinting serves Palm Beach County with premium window tinting, paint protection film, and ceramic coating. From Boca Raton to West Palm Beach, we bring the same quality and lifetime warranty to every installation.',
+    cities: [
+      { name: 'Boca Raton', slug: 'boca-raton' }, { name: 'Delray Beach', slug: 'delray-beach' },
+      { name: 'Boynton Beach', slug: 'boynton-beach' }, { name: 'Wellington', slug: 'wellington' },
+      { name: 'West Palm Beach', slug: 'west-palm-beach' },
+    ],
+  },
+}
+
+export type CityData = {
+  name: string
+  slug: string
+  county: string
+  countySlug: string
+  metaTitle: string
+  metaDesc: string
+  whyHeading: string
+  whyP1: string
+  whyP2: string
+}
+
+export const cities: CityData[] = [
+  // Broward County
+  { name: 'Weston', slug: 'weston', county: 'Broward County', countySlug: 'broward-county', metaTitle: 'Window Tinting in Weston, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Weston, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Weston', whyP1: "Weston drivers know the reality of Florida's climate — intense UV radiation year-round, scorching summer temperatures that turn your car into an oven, and a sun that fades your interior in just a few seasons. Professional window tinting isn't just about looks; it's about protecting yourself, your passengers, and your vehicle from the daily assault of South Florida's sun.", whyP2: "With BlackLine Tinting, Weston residents get access to premium ceramic and carbon window films that block up to 99% of UV rays, dramatically reduce interior heat, and provide the privacy and security you deserve on the road. Every installation is backed by our lifetime warranty, so your investment is protected for as long as you own your vehicle." },
+  { name: 'Davie', slug: 'davie', county: 'Broward County', countySlug: 'broward-county', metaTitle: 'Window Tinting in Davie, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Davie, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Davie', whyP1: "Davie's mix of rural charm and suburban convenience means residents spend plenty of time on the road — whether it's heading to the Bergeron Rodeo Grounds, commuting on I-595, or navigating Griffin Road. All that windshield time in the Florida sun takes a toll on your vehicle and your comfort.", whyP2: "BlackLine Tinting helps Davie drivers stay cool and protected with premium ceramic and carbon window films. Our installations block up to 99% of UV rays and dramatically reduce cabin heat, backed by a lifetime warranty on every job." },
+  { name: 'Plantation', slug: 'plantation', county: 'Broward County', countySlug: 'broward-county', metaTitle: 'Window Tinting in Plantation, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Plantation, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Plantation', whyP1: "Plantation residents deal with heavy commuter traffic along Broward Boulevard, University Drive, and I-595 daily. Hours behind the wheel in the Florida sun means more UV exposure, hotter interiors, and faster wear on your dashboard and seats.", whyP2: "BlackLine Tinting gives Plantation drivers the protection they need with premium ceramic and carbon films that block up to 99% of UV rays and keep your cabin significantly cooler. Every installation comes with our lifetime warranty." },
+  { name: 'Sunrise', slug: 'sunrise', county: 'Broward County', countySlug: 'broward-county', metaTitle: 'Window Tinting in Sunrise, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Sunrise, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Sunrise', whyP1: "Living in Sunrise means you're surrounded by action — from Sawgrass Mills Mall to the Amerant Bank Arena. Whether you're running errands on Oakland Park Boulevard or heading to a Panthers game, the South Florida sun is always beating down on your vehicle.", whyP2: "BlackLine Tinting helps Sunrise drivers stay comfortable and protected with premium ceramic and carbon window films. Block up to 99% of UV rays, reduce cabin heat, and protect your interior — all backed by our lifetime warranty." },
+  { name: 'Pembroke Pines', slug: 'pembroke-pines', county: 'Broward County', countySlug: 'broward-county', metaTitle: 'Window Tinting in Pembroke Pines, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Pembroke Pines, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Pembroke Pines', whyP1: "Pembroke Pines is one of Broward County's largest cities, and its residents log serious miles commuting on I-75, Pines Boulevard, and Flamingo Road. The constant sun exposure means your car's interior is under daily attack from UV rays and heat.", whyP2: "BlackLine Tinting provides Pembroke Pines drivers with premium ceramic and carbon films that block up to 99% of UV rays and dramatically reduce interior temperatures. Every installation is backed by our lifetime warranty." },
+  { name: 'Miramar', slug: 'miramar', county: 'Broward County', countySlug: 'broward-county', metaTitle: 'Window Tinting in Miramar, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Miramar, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Miramar', whyP1: "Miramar sits right along I-75 and the Florida Turnpike, making it a gateway between Broward and Miami-Dade counties. Residents here spend plenty of time on the highway, and all that windshield time means serious heat and UV exposure for both you and your vehicle.", whyP2: "BlackLine Tinting serves Miramar drivers with premium ceramic and carbon window films that block up to 99% of UV rays and keep your car significantly cooler. Every job comes with our lifetime warranty." },
+  { name: 'Southwest Ranches', slug: 'southwest-ranches', county: 'Broward County', countySlug: 'broward-county', metaTitle: 'Window Tinting in Southwest Ranches, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Southwest Ranches, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Southwest Ranches', whyP1: "Southwest Ranches is known for its spacious lots, equestrian lifestyle, and quiet country roads. But the wide-open spaces mean less shade and more direct sun exposure when you're driving. Protecting your vehicle's interior and keeping your cabin cool isn't just a luxury here — it's a necessity.", whyP2: "BlackLine Tinting provides Southwest Ranches residents with premium ceramic and carbon films that block up to 99% of UV rays and dramatically reduce heat. Every installation comes with our lifetime warranty." },
+  { name: 'Cooper City', slug: 'cooper-city', county: 'Broward County', countySlug: 'broward-county', metaTitle: 'Window Tinting in Cooper City, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Cooper City, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Cooper City', whyP1: "Cooper City's family-friendly neighborhoods and excellent schools mean parents are constantly shuttling kids to sports, school, and activities. All that time in the car adds up — and so does the heat and UV damage to your vehicle's interior.", whyP2: "BlackLine Tinting helps Cooper City families stay cool and protected with premium ceramic and carbon window films. Block up to 99% of UV rays, keep your cabin comfortable, and protect your investment — all with our lifetime warranty." },
+  { name: 'Coral Springs', slug: 'coral-springs', county: 'Broward County', countySlug: 'broward-county', metaTitle: 'Window Tinting in Coral Springs, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Coral Springs, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Coral Springs', whyP1: "Coral Springs is one of Broward's most popular suburbs, with tree-lined streets and a strong sense of community. But even in this well-planned city, the Florida sun is relentless. Your vehicle sits in parking lots, driveways, and traffic, absorbing UV rays and heat that damage your interior over time.", whyP2: "BlackLine Tinting gives Coral Springs drivers the protection they need with premium ceramic and carbon films. Block up to 99% of UV rays, keep your car cooler, and enjoy the road — all backed by our lifetime warranty." },
+  { name: 'Parkland', slug: 'parkland', county: 'Broward County', countySlug: 'broward-county', metaTitle: 'Window Tinting in Parkland, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Parkland, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Parkland', whyP1: "Parkland is one of the most affluent communities in Broward County, and residents here expect the best when it comes to protecting their vehicles. Luxury cars, SUVs, and high-end trucks deserve window tinting that matches their quality — and that's exactly what BlackLine delivers.", whyP2: "Our premium ceramic and carbon films provide superior heat rejection and UV protection while maintaining crystal-clear visibility. Every installation is precision-crafted and backed by our lifetime warranty." },
+  { name: 'Tamarac', slug: 'tamarac', county: 'Broward County', countySlug: 'broward-county', metaTitle: 'Window Tinting in Tamarac, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Tamarac, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Tamarac', whyP1: "Tamarac's central Broward location puts residents right in the middle of everything — quick access to the Sawgrass Expressway, Commercial Boulevard, and University Drive. But all that driving in the Florida sun takes a toll on your vehicle's interior and your comfort.", whyP2: "BlackLine Tinting helps Tamarac drivers beat the heat with premium ceramic and carbon window films. Block up to 99% of UV rays, reduce cabin temperature, and protect your interior — all backed by our lifetime warranty." },
+  { name: 'Lauderhill', slug: 'lauderhill', county: 'Broward County', countySlug: 'broward-county', metaTitle: 'Window Tinting in Lauderhill, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Lauderhill, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Lauderhill', whyP1: "Lauderhill residents enjoy easy access to major highways and shopping centers, but the daily commute through South Florida's sun can be brutal. Interior temperatures soar, UV rays fade your dashboard, and glare makes driving uncomfortable.", whyP2: "BlackLine Tinting provides Lauderhill drivers with premium ceramic and carbon films that block up to 99% of UV rays and keep your cabin significantly cooler. Every installation comes with our lifetime warranty." },
+  { name: 'Fort Lauderdale', slug: 'fort-lauderdale', county: 'Broward County', countySlug: 'broward-county', metaTitle: 'Window Tinting in Fort Lauderdale, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Fort Lauderdale, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Fort Lauderdale', whyP1: "Fort Lauderdale is the heart of Broward County — a vibrant city where beach life meets urban energy. Whether you're cruising Las Olas, sitting in traffic on I-95, or parked along the beach, the Fort Lauderdale sun is relentless. Your vehicle needs protection that's as tough as the climate.", whyP2: "BlackLine Tinting gives Fort Lauderdale drivers premium ceramic and carbon films that block up to 99% of UV rays and dramatically reduce cabin heat. Every installation comes with our lifetime warranty." },
+  { name: 'Hollywood', slug: 'hollywood', county: 'Broward County', countySlug: 'broward-county', metaTitle: 'Window Tinting in Hollywood, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Hollywood, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Hollywood', whyP1: "Hollywood, FL blends beachside living with a bustling downtown scene. From the Hollywood Beach Broadwalk to the shops on Young Circle, residents here spend a lot of time in their cars navigating between the coast and the city. The Florida sun makes that commute hotter and harder on your vehicle.", whyP2: "BlackLine Tinting serves Hollywood drivers with premium ceramic and carbon films that block up to 99% of UV rays and keep your car significantly cooler. Every installation is backed by our lifetime warranty." },
+  { name: 'Coconut Creek', slug: 'coconut-creek', county: 'Broward County', countySlug: 'broward-county', metaTitle: 'Window Tinting in Coconut Creek, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Coconut Creek, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Coconut Creek', whyP1: "Coconut Creek's Butterfly Capital of the World designation speaks to the community's love of nature and aesthetics. Residents here care about quality and take pride in their vehicles. The Florida sun doesn't care about any of that — it will fade your interior, crack your dashboard, and make your cabin unbearable without proper protection.", whyP2: "BlackLine Tinting provides Coconut Creek drivers with premium ceramic and carbon films that block up to 99% of UV rays and dramatically reduce heat. Every installation comes with our lifetime warranty." },
+  // Miami-Dade County
+  { name: 'Miami', slug: 'miami', county: 'Miami-Dade County', countySlug: 'miami-dade-county', metaTitle: 'Window Tinting in Miami, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Miami, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Miami', whyP1: "Miami is a city that runs on style and performance. From Brickell to Wynwood, from the Design District to South Beach, Miami drivers expect their vehicles to look as sharp as the city itself. The tropical sun that makes Miami beautiful also makes it brutal on your car — fading interiors, cracking dashboards, and turning cabins into ovens.", whyP2: "BlackLine Tinting gives Miami drivers the premium protection they need with ceramic and carbon films that block up to 99% of UV rays and keep your car significantly cooler. Every installation is backed by our lifetime warranty." },
+  { name: 'Miami Lakes', slug: 'miami-lakes', county: 'Miami-Dade County', countySlug: 'miami-dade-county', metaTitle: 'Window Tinting in Miami Lakes, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Miami Lakes, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Miami Lakes', whyP1: "Miami Lakes combines suburban comfort with easy access to Miami's business corridors. Residents here commute on the Palmetto Expressway and I-75 daily, spending hours in vehicles that are baking under the South Florida sun.", whyP2: "BlackLine Tinting helps Miami Lakes drivers stay cool and protected with premium ceramic and carbon films. Block up to 99% of UV rays and reduce cabin heat — all backed by our lifetime warranty." },
+  { name: 'Miami Gardens', slug: 'miami-gardens', county: 'Miami-Dade County', countySlug: 'miami-dade-county', metaTitle: 'Window Tinting in Miami Gardens, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Miami Gardens, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Miami Gardens', whyP1: "Miami Gardens is home to Hard Rock Stadium, FIU's North Campus, and one of Miami-Dade's largest residential communities. Residents here are on the move constantly, and the South Florida sun makes every drive hotter and harder on your vehicle.", whyP2: "BlackLine Tinting provides Miami Gardens drivers with premium ceramic and carbon films that block up to 99% of UV rays and dramatically reduce cabin heat. Every installation comes with our lifetime warranty." },
+  { name: 'Hialeah', slug: 'hialeah', county: 'Miami-Dade County', countySlug: 'miami-dade-county', metaTitle: 'Window Tinting in Hialeah, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Hialeah, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Hialeah', whyP1: "Hialeah is one of the most densely populated cities in Florida, and its residents are always on the go. Heavy traffic on the Palmetto and Le Jeune Road means extended time in the car, and all that exposure to the South Florida sun takes a toll on both you and your vehicle.", whyP2: "BlackLine Tinting serves Hialeah drivers with premium ceramic and carbon films that block up to 99% of UV rays and keep your cabin significantly cooler. Every installation is backed by our lifetime warranty." },
+  { name: 'Doral', slug: 'doral', county: 'Miami-Dade County', countySlug: 'miami-dade-county', metaTitle: 'Window Tinting in Doral, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Doral, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Doral', whyP1: "Doral has become one of Miami-Dade's premier business and residential hubs. With its proximity to Miami International Airport and the Dolphin Expressway, Doral residents are always moving. The constant sun exposure on your daily commute means your vehicle needs serious protection.", whyP2: "BlackLine Tinting provides Doral drivers with premium ceramic and carbon films that block up to 99% of UV rays and dramatically reduce cabin heat. Every installation comes with our lifetime warranty." },
+  { name: 'Homestead', slug: 'homestead', county: 'Miami-Dade County', countySlug: 'miami-dade-county', metaTitle: 'Window Tinting in Homestead, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Homestead, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Homestead', whyP1: "Homestead sits at the southern edge of Miami-Dade County, where the sun hits harder and the drives are longer. Whether you're heading to the Florida Keys, Homestead-Miami Speedway, or commuting north to Miami, your vehicle is taking a beating from UV rays and heat every single day.", whyP2: "BlackLine Tinting gives Homestead drivers premium ceramic and carbon films that block up to 99% of UV rays and keep your car significantly cooler. Every installation is backed by our lifetime warranty." },
+  { name: 'Kendall', slug: 'kendall', county: 'Miami-Dade County', countySlug: 'miami-dade-county', metaTitle: 'Window Tinting in Kendall, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Kendall, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Kendall', whyP1: "Kendall is one of Miami-Dade's most popular suburban communities, stretching along the US-1 corridor with shopping centers, restaurants, and residential neighborhoods. Daily commutes through Dadeland and along the Turnpike mean serious sun exposure for your vehicle.", whyP2: "BlackLine Tinting helps Kendall drivers beat the heat with premium ceramic and carbon films that block up to 99% of UV rays and reduce cabin temperature. Every installation comes with our lifetime warranty." },
+  // Palm Beach County
+  { name: 'Boca Raton', slug: 'boca-raton', county: 'Palm Beach County', countySlug: 'palm-beach-county', metaTitle: 'Window Tinting in Boca Raton, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Boca Raton, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Boca Raton', whyP1: "Boca Raton is synonymous with luxury, and the vehicles here reflect that. From high-end European imports to premium SUVs, Boca residents expect the best for their cars. The relentless Palm Beach County sun can undermine that investment — fading interiors, cracking leather, and making your cabin unbearable.", whyP2: "BlackLine Tinting provides Boca Raton drivers with premium ceramic and carbon films that match the quality of their vehicles. Block up to 99% of UV rays and keep your cabin cool — all backed by our lifetime warranty." },
+  { name: 'Delray Beach', slug: 'delray-beach', county: 'Palm Beach County', countySlug: 'palm-beach-county', metaTitle: 'Window Tinting in Delray Beach, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Delray Beach, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Delray Beach', whyP1: "Delray Beach's vibrant Atlantic Avenue scene and beautiful coastline draw residents who appreciate quality and style. Your vehicle is an extension of that lifestyle, and the South Florida sun shouldn't be allowed to degrade it.", whyP2: "BlackLine Tinting gives Delray Beach drivers premium ceramic and carbon films that block up to 99% of UV rays and keep your car cool and protected. Every installation comes with our lifetime warranty." },
+  { name: 'Boynton Beach', slug: 'boynton-beach', county: 'Palm Beach County', countySlug: 'palm-beach-county', metaTitle: 'Window Tinting in Boynton Beach, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Boynton Beach, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Boynton Beach', whyP1: "Boynton Beach offers a relaxed coastal lifestyle with easy access to I-95 and the Florida Turnpike. But the daily sun exposure that comes with South Florida living is tough on your vehicle — fading interiors, cracking dashboards, and heating your cabin to uncomfortable levels.", whyP2: "BlackLine Tinting helps Boynton Beach drivers protect their vehicles with premium ceramic and carbon films. Block up to 99% of UV rays, reduce heat, and enjoy the ride — all backed by our lifetime warranty." },
+  { name: 'Wellington', slug: 'wellington', county: 'Palm Beach County', countySlug: 'palm-beach-county', metaTitle: 'Window Tinting in Wellington, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in Wellington, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in Wellington', whyP1: "Wellington is known for its equestrian community, spacious properties, and family-friendly atmosphere. Residents here invest in quality — from their homes to their vehicles. Professional window tinting is a smart investment that protects that quality from the Florida sun.", whyP2: "BlackLine Tinting provides Wellington drivers with premium ceramic and carbon films that block up to 99% of UV rays and keep your car significantly cooler. Every installation is backed by our lifetime warranty." },
+  { name: 'West Palm Beach', slug: 'west-palm-beach', county: 'Palm Beach County', countySlug: 'palm-beach-county', metaTitle: 'Window Tinting in West Palm Beach, FL | BlackLine Tinting', metaDesc: 'Professional window tinting in West Palm Beach, FL. Premium ceramic and carbon films, paint protection, and ceramic coating. Lifetime warranty. Free quote.', whyHeading: 'Why Window Tinting Matters in West Palm Beach', whyP1: "West Palm Beach is Palm Beach County's urban core — a bustling city with a growing downtown, waterfront dining, and a thriving arts scene. The city's energy is matched by its sun intensity, making window tinting essential for any driver who spends time on the road here.", whyP2: "BlackLine Tinting gives West Palm Beach drivers premium ceramic and carbon films that block up to 99% of UV rays and dramatically reduce cabin heat. Every installation comes with our lifetime warranty." },
+]
+
+export const faqItems = [
+  { q: 'How long does window tinting take?', a: 'Most window tinting installations are completed in 2-3 hours, depending on the vehicle and the number of windows being tinted. Full vehicle tints with windshield may take up to 4 hours. We recommend planning to drop your vehicle off so our technicians can work without rushing.' },
+  { q: 'Is window tinting legal in Florida?', a: 'Yes, window tinting is legal in Florida with certain restrictions on how dark you can go on each window. Florida law allows any darkness on rear side windows and the back window, but front side windows must allow more than 28% of light in, and the windshield can only have a non-reflective tint strip above the AS-1 line.' },
+  { q: 'What VLT percentages are legal in Florida?', a: "In Florida, front side windows must allow more than 28% VLT (Visible Light Transmission). Rear side windows and the rear window can be any darkness. Windshield tint is limited to a non-reflective strip above the AS-1 line. We'll help you choose the right percentage for your vehicle that balances your preferences with legal requirements." },
+  { q: "What's the difference between carbon and ceramic tint?", a: "Both are premium films, but ceramic tint is the higher-performing option. Ceramic uses nano-ceramic particles that provide superior heat rejection (blocking up to 99% of UV rays) with zero signal interference. Carbon tint uses carbon particles for excellent heat rejection and a distinctive matte finish at a lower price point. Both are fade-proof and come with our lifetime warranty." },
+  { q: 'Does window tint affect my phone signal or GPS?', a: "Not with the films we use. Our ceramic and carbon window tints are specifically designed to be non-metallic, meaning they won't interfere with your phone signal, GPS, Bluetooth, or any other electronics. Cheaper metallic tints can cause interference, but we don't use those." },
+  { q: 'How long should I wait before rolling my windows down?', a: 'We recommend waiting at least 3-5 days before rolling your windows down after installation. This allows the adhesive to fully cure and bond to the glass. During the curing process, you may notice small water bubbles — this is completely normal and they will disappear within 2-4 weeks.' },
+  { q: 'What does the lifetime warranty cover?', a: "Our lifetime warranty covers any defects in the film or installation for as long as you own the vehicle. This includes bubbling, peeling, cracking, fading, and color change. If any of these issues occur, we'll replace the affected tint at no cost to you. The warranty is non-transferable and applies to the original installation only." },
+  { q: 'Do you tint windshields?', a: "Yes! We offer windshield tinting using clear or lightly tinted ceramic film that blocks heat and UV rays without reducing visibility. All of our windshield tint options comply with Florida's legal requirements. It's one of the most impactful upgrades you can make for cabin comfort." },
+  { q: 'How do I get the VIP discount?', a: 'Our VIP discount is available to active military, veterans, police officers, firefighters, and EMTs. Simply mention your eligibility when booking your appointment or fill out our quote form and note it in the additional details.' },
+  { q: 'Do you offer same-week appointments?', a: 'Yes, we offer same-week appointments for most services. Availability depends on our current schedule, but we do our best to get you in as quickly as possible. Book through our quote form or call us directly to check availability.' },
+  { q: 'Can I get an exact price before coming in?', a: "Absolutely. Fill out our free quote form with your vehicle details and preferred service, and we'll send you an exact price — no guesswork, no hidden fees. We believe in transparent pricing so you know exactly what to expect." },
+]
