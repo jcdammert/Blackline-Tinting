@@ -36,8 +36,8 @@ export default function Footer() {
             </Link>
             <p>Professional auto window tinting serving South Florida. Lifetime warranty on every installation.</p>
             <div className="footer-contact">
-              <p>📞 (954) 555-TINT</p>
-              <p>✉ info@blacklinetinting.com</p>
+              <p>📞 (954) 737-2785</p>
+              <p>✉ blacklinetintingsales@gmail.com</p>
               <p>📍 Broward County, FL</p>
             </div>
           </div>
