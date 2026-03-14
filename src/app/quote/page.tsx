@@ -286,8 +286,8 @@ export default function Quote() {
             <div>
               <div className="sidebar-card">
                 <h3>Contact Info</h3>
-                <p><span className="sidebar-icon">📞</span> (954) 555-TINT</p>
-                <p><span className="sidebar-icon">✉</span> info@blacklinetinting.com</p>
+                <p><span className="sidebar-icon">📞</span> (954) 737-2785</p>
+                <p><span className="sidebar-icon">✉</span> blacklinetintingsales@gmail.com</p>
                 <p><span className="sidebar-icon">📍</span> Broward County, FL</p>
                 <p><span className="sidebar-icon">🕐</span> Mon-Sat: 8AM - 6PM</p>
               </div>
