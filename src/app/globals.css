@@ -237,6 +237,15 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 400; line-height
 .value-card p { color: var(--text-secondary); font-size: 0.95rem; }
 
 /* ── GALLERY ──────────────────────────────────────────────────── */
+.gallery-grid-home {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+}
+@media (max-width: 768px) {
+  .gallery-grid-home { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
+  .gallery-grid-home { grid-template-columns: 1fr; }
+}
 .gallery-grid {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;
 }

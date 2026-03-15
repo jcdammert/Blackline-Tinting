@@ -23,12 +23,39 @@ export default function Home() {
 
       <section className="section section-alt">
         <div className="container">
+          <h2 className="section-title">Our Work</h2>
+          <p style={{ textAlign: 'center', color: 'var(--text-secondary)', marginBottom: '40px', maxWidth: '600px', marginLeft: 'auto', marginRight: 'auto' }}>
+            Browse some of our recent installations — every job gets premium materials, precision, and a lifetime warranty.
+          </p>
+          <div className="gallery-grid-home">
+            {[
+              { label: 'Ceramic Tint', desc: 'Full ceramic tint installation' },
+              { label: 'Carbon Tint', desc: 'Premium carbon film install' },
+              { label: 'Windshield Tint', desc: 'Clear ceramic windshield film' },
+              { label: 'Full Vehicle', desc: 'Complete vehicle tint package' },
+              { label: 'PPF Install', desc: 'Paint protection film application' },
+              { label: 'Ceramic Tint', desc: 'Side window ceramic tint' },
+            ].map((item, i) => (
+              <div className="gallery-item" key={i}>
+                <span className="gallery-label">{item.label}</span>
+                {item.desc}
+              </div>
+            ))}
+          </div>
+          <div style={{ textAlign: 'center', marginTop: '40px' }}>
+            <Link href="/gallery" className="btn btn-primary">VIEW FULL GALLERY →</Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
           <h2 className="section-title">Our Services</h2>
           <ServicesCards />
         </div>
       </section>
 
-      <section className="section">
+      <section className="section section-alt">
         <div className="container">
           <h2 className="section-title">Why Choose BlackLine</h2>
           <div className="values-grid">
@@ -51,7 +78,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section section-alt">
+      <section className="section">
         <div className="container">
           <h2 className="section-title">Service Areas</h2>
           <ServiceAreasGrid />
