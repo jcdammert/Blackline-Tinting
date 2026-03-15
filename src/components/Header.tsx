@@ -21,7 +21,7 @@ export default function Header() {
         >
           <span></span><span></span><span></span>
         </button>
-        <ul className={`nav-links${mobileOpen ? ' active' : ''}`}>
+        <ul className={`nav-links${mobileOpen ? ' active' : ''}`} onClick={() => setMobileOpen(false)}>
           <li><Link href="/" className={isActive('/')}>Home</Link></li>
           <li><Link href="/about" className={isActive('/about')}>About</Link></li>
           <li className="dropdown">
