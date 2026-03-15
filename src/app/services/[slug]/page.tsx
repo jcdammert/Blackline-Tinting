@@ -65,8 +65,8 @@ export default async function ServicePage({ params }: Props) {
             </div>
             <div className="step">
               <div className="step-number">2</div>
-              <h3>Drop Off Your Car</h3>
-              <p>Bring your vehicle to our shop. Most tint jobs are completed in 2-3 hours.</p>
+              <h3>We Come to You</h3>
+              <p>We come to your home or workplace and tint your car on-site. Most jobs are completed in 1-3 hours.</p>
             </div>
             <div className="step">
               <div className="step-number">3</div>
