@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { CTASection } from '@/components/Shared'
 
 export const metadata: Metadata = {
@@ -7,15 +8,9 @@ export const metadata: Metadata = {
 }
 
 const galleryItems = [
-  { label: 'Ceramic Tint', desc: 'Full ceramic tint installation' },
-  { label: 'Carbon Tint', desc: 'Premium carbon film install' },
-  { label: 'Ceramic Tint', desc: 'Rear window ceramic application' },
-  { label: 'Windshield Tint', desc: 'Clear ceramic windshield film' },
-  { label: 'Full Vehicle', desc: 'Complete vehicle tint package' },
-  { label: 'Ceramic Tint', desc: 'Side window ceramic tint' },
-  { label: 'PPF Install', desc: 'Paint protection film application' },
-  { label: 'Carbon Tint', desc: 'Carbon tint on luxury sedan' },
-  { label: 'Fleet Tinting', desc: 'Commercial fleet tinting project' },
+  { label: 'Ceramic Tint', src: '/gallery/bmw-x6-ceramic-tint.jpg', alt: 'BMW X6 with ceramic window tint' },
+  { label: 'Ceramic Tint', src: '/gallery/audi-q8-ceramic-tint.jpg', alt: 'Audi Q8 with ceramic window tint' },
+  { label: 'Ceramic Tint', src: '/gallery/gmc-sierra-ceramic-tint.jpg', alt: 'GMC Sierra with ceramic window tint' },
 ]
 
 export default function Gallery() {
@@ -33,8 +28,14 @@ export default function Gallery() {
           <div className="gallery-grid">
             {galleryItems.map((item, i) => (
               <div className="gallery-item" key={i}>
+                <Image
+                  src={item.src}
+                  alt={item.alt}
+                  fill
+                  style={{ objectFit: 'cover' }}
+                  sizes="(max-width: 768px) 100vw, 400px"
+                />
                 <span className="gallery-label">{item.label}</span>
-                {item.desc}
               </div>
             ))}
           </div>

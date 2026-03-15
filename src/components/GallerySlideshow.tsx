@@ -1,14 +1,13 @@
 'use client'
 
 import { useState, useCallback, useEffect } from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 
 const slides = [
-  { label: 'Ceramic Tint' },
-  { label: 'Carbon Tint' },
-  { label: 'Windshield Tint' },
-  { label: 'Full Vehicle' },
-  { label: 'PPF Install' },
+  { label: 'Ceramic Tint', src: '/gallery/bmw-x6-ceramic-tint.jpg', alt: 'BMW X6 with ceramic window tint' },
+  { label: 'Ceramic Tint', src: '/gallery/audi-q8-ceramic-tint.jpg', alt: 'Audi Q8 with ceramic window tint' },
+  { label: 'Ceramic Tint', src: '/gallery/gmc-sierra-ceramic-tint.jpg', alt: 'GMC Sierra with ceramic window tint' },
 ]
 
 export default function GallerySlideshow() {
@@ -28,6 +27,14 @@ export default function GallerySlideshow() {
         <div className="slideshow-track" style={{ transform: `translateX(-${current * 100}%)` }}>
           {slides.map((slide, i) => (
             <div className="slideshow-slide" key={i}>
+              <Image
+                src={slide.src}
+                alt={slide.alt}
+                fill
+                style={{ objectFit: 'cover' }}
+                sizes="(max-width: 768px) 100vw, 900px"
+                priority={i === 0}
+              />
               <span className="slideshow-label">{slide.label}</span>
             </div>
           ))}
