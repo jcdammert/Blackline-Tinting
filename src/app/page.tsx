@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { CTASection, ServicesCards, ServiceAreasGrid } from '@/components/Shared'
+import GallerySlideshow from '@/components/GallerySlideshow'
 
 export const metadata: Metadata = {
   title: 'BlackLine Tinting | Professional Window Tinting in South Florida',
@@ -20,6 +21,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <GallerySlideshow />
 
       <section className="section section-alt">
         <div className="container">
