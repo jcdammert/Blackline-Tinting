@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { CTASection } from '@/components/Shared'
 
 export const metadata: Metadata = {
@@ -25,7 +26,15 @@ export default function About() {
               <p>Based in Broward County, we&apos;ve tinted thousands of vehicles — from daily commuters to luxury cars to entire commercial fleets. Every installation gets the same attention to detail, the same premium materials, and the same lifetime warranty.</p>
               <p>We&apos;re not a franchise or a quick-service chain. We&apos;re a locally owned shop staffed by experienced technicians who genuinely care about the quality of their work. When you bring your car to BlackLine, you&apos;re getting the best tint job in South Florida — guaranteed.</p>
             </div>
-            <div className="about-image">Professional tinting team photo</div>
+            <div className="about-image">
+              <Image
+                src="/about-tinting-team.webp"
+                alt="Professional window tint installation by BlackLine Tinting South Florida"
+                fill
+                style={{ objectFit: 'cover' }}
+                sizes="(max-width: 768px) 100vw, 500px"
+              />
+            </div>
           </div>
         </div>
       </section>
