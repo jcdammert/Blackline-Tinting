@@ -8,6 +8,9 @@ const slides = [
   { label: 'Ceramic Tint', src: '/gallery/bmw-x6-ceramic-tint.jpg', alt: 'BMW X6 with ceramic window tint' },
   { label: 'Ceramic Tint', src: '/gallery/audi-q8-ceramic-tint.jpg', alt: 'Audi Q8 with ceramic window tint' },
   { label: 'Ceramic Tint', src: '/gallery/gmc-sierra-ceramic-tint.jpg', alt: 'GMC Sierra with ceramic window tint' },
+  { label: 'Ceramic Tint', src: '/gallery/tesla-model-x-ceramic-tint.jpg', alt: 'Tesla Model X with ceramic window tint' },
+  { label: 'Ceramic Tint', src: '/gallery/porsche-911-ceramic-tint.jpg', alt: 'Porsche 911 convertible with ceramic window tint' },
+  { label: 'Ceramic Tint', src: '/gallery/jeep-wrangler-ceramic-tint.jpg', alt: 'Jeep Wrangler with ceramic window tint' },
 ]
 
 export default function GallerySlideshow() {
