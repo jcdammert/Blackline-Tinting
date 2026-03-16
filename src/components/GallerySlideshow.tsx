@@ -5,16 +5,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const slides = [
-  { label: 'Ceramic Tint', src: '/gallery/bmw-x6-ceramic-tint.jpg', alt: 'BMW X6 with ceramic window tint' },
-  { label: 'Ceramic Tint', src: '/gallery/audi-q8-ceramic-tint.jpg', alt: 'Audi Q8 with ceramic window tint' },
-  { label: 'Ceramic Tint', src: '/gallery/gmc-sierra-ceramic-tint.jpg', alt: 'GMC Sierra with ceramic window tint' },
-  { label: 'Ceramic Tint', src: '/gallery/tesla-model-x-ceramic-tint.jpg', alt: 'Tesla Model X with ceramic window tint' },
-  { label: 'Ceramic Tint', src: '/gallery/porsche-911-ceramic-tint.jpg', alt: 'Porsche 911 convertible with ceramic window tint' },
-  { label: 'Ceramic Tint', src: '/gallery/jeep-wrangler-ceramic-tint.jpg', alt: 'Jeep Wrangler with ceramic window tint' },
-  { label: 'Ceramic Tint', src: '/gallery/bmw-3-series-red-ceramic-tint.jpg', alt: 'Red BMW 3 Series with ceramic window tint' },
-  { label: 'Ceramic Tint', src: '/gallery/broward-sheriff-charger-ceramic-tint.jpg', alt: 'Broward Sheriff Dodge Charger with ceramic window tint' },
-  { label: 'Ceramic Tint', src: '/gallery/audi-a5-white-ceramic-tint.jpg', alt: 'White Audi A5 with ceramic window tint' },
-  { label: 'Ceramic Tint', src: '/gallery/ford-transit-connect-ceramic-tint.jpg', alt: 'White Ford Transit Connect with ceramic window tint' },
+  { label: 'BMW X6', src: '/gallery/bmw-x6-ceramic-tint.jpg', alt: 'BMW X6 ceramic window tint South Florida' },
+  { label: 'Audi Q8', src: '/gallery/audi-q8-ceramic-tint.jpg', alt: 'Audi Q8 ceramic window tint South Florida' },
+  { label: 'GMC Sierra 2500', src: '/gallery/gmc-sierra-ceramic-tint.jpg', alt: 'GMC Sierra 2500 ceramic window tint South Florida' },
+  { label: 'Tesla Model X', src: '/gallery/tesla-model-x-ceramic-tint.jpg', alt: 'Tesla Model X ceramic window tint South Florida' },
+  { label: 'BMW M440i', src: '/gallery/porsche-911-ceramic-tint.jpg', alt: 'BMW M440i convertible ceramic window tint South Florida' },
+  { label: 'Jeep Wrangler', src: '/gallery/jeep-wrangler-ceramic-tint.jpg', alt: 'Jeep Wrangler ceramic window tint South Florida' },
+  { label: 'BMW 3 Series', src: '/gallery/bmw-3-series-red-ceramic-tint.jpg', alt: 'Red BMW 3 Series ceramic window tint South Florida' },
+  { label: 'Dodge Charger', src: '/gallery/broward-sheriff-charger-ceramic-tint.jpg', alt: 'Broward Sheriff Dodge Charger ceramic window tint South Florida' },
+  { label: 'Audi A5', src: '/gallery/audi-a5-white-ceramic-tint.jpg', alt: 'White Audi A5 ceramic window tint South Florida' },
+  { label: 'Ford Transit Connect', src: '/gallery/ford-transit-connect-ceramic-tint.jpg', alt: 'White Ford Transit Connect ceramic window tint South Florida' },
 ]
 
 export default function GallerySlideshow() {
