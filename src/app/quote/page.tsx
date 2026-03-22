@@ -37,7 +37,10 @@ export default function Quote() {
       if (!phone.trim()) errs.push('Phone number is required')
       if (!email.trim()) errs.push('Email address is required')
     }
-    if (s === 2) { if (!service) errs.push('Please select a service') }
+    if (s === 2) {
+      if (!vehicle.trim()) errs.push('Please enter your vehicle info')
+      if (!service) errs.push('Please select a service')
+    }
     if (s === 3) {
       if (service === 'tinting' && tintWindows.length === 0) errs.push('Please select at least one window option')
       if (service === 'ppf' && ppfAreas.length === 0) errs.push('Please select at least one area')
