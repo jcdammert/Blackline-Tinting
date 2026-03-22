@@ -1,3 +1,4 @@
+import Script from 'next/script'
 import type { Metadata } from 'next'
 import { Inter, DM_Serif_Display } from 'next/font/google'
 import Header from '@/components/Header'
@@ -28,6 +29,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main>{children}</main>
         <Footer />
+        <Script
+          src="https://link.msgsndr.com/js/external-tracking.js"
+          data-tracking-id="tk_621fdf5c671c4445a7bec8d3a783593e"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   )
