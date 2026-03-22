@@ -54,6 +54,7 @@ export default async function ServicePage({ params }: Props) {
         </div>
       </section>
 
+      {slug !== 'paint-protection-film' && slug !== 'ceramic-coating' && (
       <section className="how-it-works section">
         <div className="container">
           <h2 className="section-title">How It Works</h2>
@@ -76,6 +77,7 @@ export default async function ServicePage({ params }: Props) {
           </div>
         </div>
       </section>
+      )}
 
       <section className="cta-section">
         <div className="container">
