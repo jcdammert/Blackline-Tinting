@@ -38,7 +38,7 @@ export default function Quote() {
       if (!email.trim()) errs.push('Email address is required')
     }
     if (s === 2) {
-      if (!vehicle.trim()) errs.push('Please enter your vehicle info')
+      if (!vehicle.trim() || vehicle.trim().length < 5) errs.push('Please enter your vehicle make, model, and year')
       if (!service) errs.push('Please select a service')
     }
     if (s === 3) {
