@@ -5,6 +5,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const slides = [
+  { label: 'Porsche 911 GT3 RS', src: '/gallery/porsche-911-gt3rs-ceramic-tint.jpg', alt: 'Red Porsche 911 GT3 RS ceramic window tint South Florida' },
+  { label: 'Tesla Model Y', src: '/gallery/tesla-model-y-gray-ceramic-tint.jpg', alt: 'Gray Tesla Model Y ceramic window tint South Florida' },
+  { label: 'Kia Telluride', src: '/gallery/kia-telluride-black-ceramic-tint.jpg', alt: 'Black Kia Telluride ceramic window tint South Florida' },
+  { label: 'Tesla Model Y', src: '/gallery/tesla-model-y-white-ceramic-tint.jpg', alt: 'White Tesla Model Y ceramic window tint South Florida' },
+  { label: 'Hyundai Santa Fe', src: '/gallery/hyundai-santa-fe-ceramic-tint.jpg', alt: 'Hyundai Santa Fe ceramic window tint South Florida' },
   { label: 'BMW X6', src: '/gallery/bmw-x6-ceramic-tint.jpg', alt: 'BMW X6 ceramic window tint South Florida' },
   { label: 'Audi Q8', src: '/gallery/audi-q8-ceramic-tint.jpg', alt: 'Audi Q8 ceramic window tint South Florida' },
   { label: 'GMC Sierra 2500', src: '/gallery/gmc-sierra-ceramic-tint.jpg', alt: 'GMC Sierra 2500 ceramic window tint South Florida' },

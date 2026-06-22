@@ -8,6 +8,11 @@ export const metadata: Metadata = {
 }
 
 const galleryItems = [
+  { label: 'Porsche 911 GT3 RS', src: '/gallery/porsche-911-gt3rs-ceramic-tint.jpg', alt: 'Red Porsche 911 GT3 RS ceramic window tint South Florida' },
+  { label: 'Tesla Model Y', src: '/gallery/tesla-model-y-gray-ceramic-tint.jpg', alt: 'Gray Tesla Model Y ceramic window tint South Florida' },
+  { label: 'Kia Telluride', src: '/gallery/kia-telluride-black-ceramic-tint.jpg', alt: 'Black Kia Telluride ceramic window tint South Florida' },
+  { label: 'Tesla Model Y', src: '/gallery/tesla-model-y-white-ceramic-tint.jpg', alt: 'White Tesla Model Y ceramic window tint South Florida' },
+  { label: 'Hyundai Santa Fe', src: '/gallery/hyundai-santa-fe-ceramic-tint.jpg', alt: 'Hyundai Santa Fe ceramic window tint South Florida' },
   { label: 'BMW X6', src: '/gallery/bmw-x6-ceramic-tint.jpg', alt: 'BMW X6 ceramic window tint South Florida' },
   { label: 'Audi Q8', src: '/gallery/audi-q8-ceramic-tint.jpg', alt: 'Audi Q8 ceramic window tint South Florida' },
   { label: 'GMC Sierra 2500', src: '/gallery/gmc-sierra-ceramic-tint.jpg', alt: 'GMC Sierra 2500 ceramic window tint South Florida' },
@@ -18,11 +23,6 @@ const galleryItems = [
   { label: 'Dodge Charger', src: '/gallery/broward-sheriff-charger-ceramic-tint.jpg', alt: 'Broward Sheriff Dodge Charger ceramic window tint South Florida' },
   { label: 'Audi A5', src: '/gallery/audi-a5-white-ceramic-tint.jpg', alt: 'White Audi A5 ceramic window tint South Florida' },
   { label: 'Ford Transit Connect', src: '/gallery/ford-transit-connect-ceramic-tint.jpg', alt: 'White Ford Transit Connect ceramic window tint South Florida' },
-  { label: 'Hyundai Santa Fe', src: '/gallery/hyundai-santa-fe-ceramic-tint.jpg', alt: 'Hyundai Santa Fe ceramic window tint South Florida' },
-  { label: 'Tesla Model Y', src: '/gallery/tesla-model-y-gray-ceramic-tint.jpg', alt: 'Gray Tesla Model Y ceramic window tint South Florida' },
-  { label: 'Kia Telluride', src: '/gallery/kia-telluride-black-ceramic-tint.jpg', alt: 'Black Kia Telluride ceramic window tint South Florida' },
-  { label: 'Tesla Model Y', src: '/gallery/tesla-model-y-white-ceramic-tint.jpg', alt: 'White Tesla Model Y ceramic window tint South Florida' },
-  { label: 'Porsche 911 GT3 RS', src: '/gallery/porsche-911-gt3rs-ceramic-tint.jpg', alt: 'Red Porsche 911 GT3 RS ceramic window tint South Florida' },
 ]
 
 export default function Gallery() {
