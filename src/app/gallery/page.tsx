@@ -18,7 +18,7 @@ const galleryItems = [
   { label: 'Dodge Charger', src: '/gallery/broward-sheriff-charger-ceramic-tint.jpg', alt: 'Broward Sheriff Dodge Charger ceramic window tint South Florida' },
   { label: 'Audi A5', src: '/gallery/audi-a5-white-ceramic-tint.jpg', alt: 'White Audi A5 ceramic window tint South Florida' },
   { label: 'Ford Transit Connect', src: '/gallery/ford-transit-connect-ceramic-tint.jpg', alt: 'White Ford Transit Connect ceramic window tint South Florida' },
-  { label: 'Kia Telluride', src: '/gallery/kia-telluride-gray-ceramic-tint.jpg', alt: 'Kia Telluride ceramic window tint South Florida' },
+  { label: 'Hyundai Santa Fe', src: '/gallery/hyundai-santa-fe-ceramic-tint.jpg', alt: 'Hyundai Santa Fe ceramic window tint South Florida' },
   { label: 'Tesla Model Y', src: '/gallery/tesla-model-y-gray-ceramic-tint.jpg', alt: 'Gray Tesla Model Y ceramic window tint South Florida' },
   { label: 'Kia Telluride', src: '/gallery/kia-telluride-black-ceramic-tint.jpg', alt: 'Black Kia Telluride ceramic window tint South Florida' },
   { label: 'Tesla Model Y', src: '/gallery/tesla-model-y-white-ceramic-tint.jpg', alt: 'White Tesla Model Y ceramic window tint South Florida' },
