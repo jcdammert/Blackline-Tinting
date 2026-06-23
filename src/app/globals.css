@@ -185,6 +185,15 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 400; line-height
 
 /* ── FAQ ──────────────────────────────────────────────────────── */
 .faq-list { max-width: 700px; margin: 0 auto; }
+.faq-search-wrap { margin-bottom: 32px; }
+.faq-search {
+  width: 100%; padding: 14px 20px; border-radius: var(--radius);
+  background: var(--bg-card); border: 1px solid var(--border);
+  color: var(--text-primary); font-family: var(--font); font-size: 1rem;
+  outline: none; transition: border-color 0.2s;
+}
+.faq-search::placeholder { color: var(--text-secondary); }
+.faq-search:focus { border-color: var(--blue); }
 .faq-item {
   background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);
   margin-bottom: 12px; overflow: hidden;
