@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation'
 import { services } from '@/data/siteData'
 import { ServiceAreasGrid } from '@/components/Shared'
 
+const BASE = 'https://blacklinetinting.com'
+
 type Props = { params: Promise<{ slug: string }> }
 
 export async function generateStaticParams() {
@@ -22,8 +24,41 @@ export default async function ServicePage({ params }: Props) {
   const service = services.find(s => s.slug === slug)
   if (!service) notFound()
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: BASE },
+      { '@type': 'ListItem', position: 2, name: 'Services', item: `${BASE}/services` },
+      { '@type': 'ListItem', position: 3, name: service.name, item: `${BASE}/services/${slug}` },
+    ],
+  }
+
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: service.name,
+    description: service.description,
+    url: `${BASE}/services/${slug}`,
+    provider: {
+      '@type': 'AutoRepair',
+      '@id': `${BASE}/#business`,
+      name: 'BlackLine Tinting',
+      telephone: '+19547372785',
+      url: BASE,
+    },
+    areaServed: [
+      { '@type': 'County', name: 'Broward County', containedInPlace: { '@type': 'State', name: 'Florida' } },
+      { '@type': 'County', name: 'Miami-Dade County', containedInPlace: { '@type': 'State', name: 'Florida' } },
+      { '@type': 'County', name: 'Palm Beach County', containedInPlace: { '@type': 'State', name: 'Florida' } },
+    ],
+  }
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+
       <section className="service-hero page-hero">
         <div className="container">
           <h1>{service.name}</h1>

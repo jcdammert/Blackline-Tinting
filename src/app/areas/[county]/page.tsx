@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation'
 import { counties } from '@/data/siteData'
 import { CTASection } from '@/components/Shared'
 
+const BASE = 'https://blacklinetinting.com'
+
 type Props = { params: Promise<{ county: string }> }
 
 export async function generateStaticParams() {
@@ -22,8 +24,20 @@ export default async function CountyPage({ params }: Props) {
   const data = counties[county as keyof typeof counties]
   if (!data) notFound()
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: BASE },
+      { '@type': 'ListItem', position: 2, name: 'Service Areas', item: `${BASE}/areas` },
+      { '@type': 'ListItem', position: 3, name: data.name, item: `${BASE}/areas/${county}` },
+    ],
+  }
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+
       <section className="page-hero">
         <div className="container">
           <h1>Window Tinting in <span className="text-blue">{data.name}</span></h1>

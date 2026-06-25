@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation'
 import { cities } from '@/data/siteData'
 import { CTASection, ServicesCards, ServiceAreasGrid } from '@/components/Shared'
 
+const BASE = 'https://blacklinetinting.com'
+
 type Props = { params: Promise<{ county: string; city: string }> }
 
 export async function generateStaticParams() {
@@ -22,8 +24,21 @@ export default async function CityPage({ params }: Props) {
   const data = cities.find(c => c.slug === city)
   if (!data) notFound()
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: BASE },
+      { '@type': 'ListItem', position: 2, name: 'Service Areas', item: `${BASE}/areas` },
+      { '@type': 'ListItem', position: 3, name: data.county, item: `${BASE}/areas/${data.countySlug}` },
+      { '@type': 'ListItem', position: 4, name: data.name, item: `${BASE}/areas/${data.countySlug}/${data.slug}` },
+    ],
+  }
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+
       <section className="city-hero page-hero">
         <div className="container">
           <h1>Window Tinting Services in <span className="text-blue">{data.name}, FL</span></h1>
