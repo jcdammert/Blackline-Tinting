@@ -8,6 +8,111 @@ export const metadata: Metadata = {
   description: 'Premium auto window tinting in South Florida. Ceramic & carbon tint, PPF, ceramic coating. Lifetime warranty. Serving Broward, Miami-Dade & Palm Beach counties.',
 }
 
+const localBusinessSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'AutoRepair',
+  '@id': 'https://blacklinetinting.com/#business',
+  name: 'BlackLine Tinting',
+  description: 'BlackLine Tinting is a mobile window tinting company serving South Florida. We install ceramic and carbon window tint, paint protection film, and ceramic coating at your location — home, work, or wherever your vehicle is parked. Lifetime warranty on every job.',
+  url: 'https://blacklinetinting.com',
+  telephone: '+19547372785',
+  image: 'https://blacklinetinting.com/blackline-logo.png',
+  logo: {
+    '@type': 'ImageObject',
+    url: 'https://blacklinetinting.com/blackline-logo.png',
+  },
+  priceRange: '$$',
+  currenciesAccepted: 'USD',
+  paymentAccepted: 'Visa, Mastercard, American Express, Cash',
+  areaServed: [
+    {
+      '@type': 'County',
+      name: 'Broward County',
+      containedInPlace: { '@type': 'State', name: 'Florida' },
+    },
+    {
+      '@type': 'County',
+      name: 'Miami-Dade County',
+      containedInPlace: { '@type': 'State', name: 'Florida' },
+    },
+    {
+      '@type': 'County',
+      name: 'Palm Beach County',
+      containedInPlace: { '@type': 'State', name: 'Florida' },
+    },
+  ],
+  knowsAbout: [
+    'Ceramic Window Tinting',
+    'Carbon Window Tinting',
+    'Paint Protection Film',
+    'Windshield Tinting',
+    'Ceramic Coating',
+    'SunTek Window Film',
+    'Florida Tint Laws',
+    'Mobile Window Tinting',
+  ],
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'Window Tinting and Paint Protection Services',
+    itemListElement: [
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Ceramic Window Tinting',
+          description: 'Premium SunTek ceramic window tint using nano-ceramic technology. Blocks UV rays and significantly reduces heat with no interference with phone, GPS, or keyless entry. Lifetime warranty.',
+          url: 'https://blacklinetinting.com/services/ceramic-window-tint',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Carbon Window Tinting',
+          description: 'Carbon window tint with excellent heat rejection, a matte finish, and no signal interference. Lifetime warranty.',
+          url: 'https://blacklinetinting.com/services/carbon-window-tint',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Paint Protection Film',
+          description: 'Invisible urethane film that protects vehicle paint from rock chips, scratches, and road debris. Self-healing technology.',
+          url: 'https://blacklinetinting.com/services/paint-protection-film',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Windshield Tinting',
+          description: 'Ceramic windshield film that blocks heat and UV without reducing visibility.',
+          url: 'https://blacklinetinting.com/services/windshield-tint',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Ceramic Coating',
+          description: 'Professional ceramic coating for long-lasting hydrophobic paint protection and a deep glossy finish.',
+          url: 'https://blacklinetinting.com/services/ceramic-coating',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Commercial Vehicle Tinting',
+          description: 'Fleet and commercial vehicle window tinting with consistent quality and bulk pricing.',
+          url: 'https://blacklinetinting.com/services/commercial-vehicle-tinting',
+        },
+      },
+    ],
+  },
+}
+
 export default function Home() {
   return (
     <>
@@ -62,6 +167,11 @@ export default function Home() {
       </section>
 
       <CTASection />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
     </>
   )
 }
