@@ -69,7 +69,7 @@ const localBusinessSchema = {
         itemOffered: {
           '@type': 'Service',
           name: 'Carbon Window Tinting',
-          description: 'Carbon window tint with excellent heat rejection, a matte finish, and no signal interference. Lifetime warranty.',
+          description: 'Carbon window tint with excellent heat rejection, a matte finish, and no signal interference. 1-year warranty.',
           url: 'https://blacklinetinting.com/services/carbon-window-tint',
         },
       },
