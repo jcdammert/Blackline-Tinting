@@ -54,7 +54,7 @@ export default function ReviewsCarousel() {
         <div className="reviews-header">
           <h2 className="section-title">What Our Customers Say</h2>
           <p className="reviews-meta">
-            <span className="reviews-stars-gold">★★★★★</span> 18 Reviews on Google
+            <span className="reviews-stars-gold">★★★★★</span> 5.0 · Google Verified Reviews
           </p>
         </div>
 
