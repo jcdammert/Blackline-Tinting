@@ -53,6 +53,31 @@ const reviews = [
     stars: 5,
     text: 'Quick service and professional tinting.',
   },
+  {
+    name: 'Brian Hinton',
+    stars: 5,
+    text: 'Great service at a good price, and they come to you! My Lexus looks great! Recommend!!',
+  },
+  {
+    name: 'Jose Rondon',
+    stars: 5,
+    text: 'High quality service, he was very responsive and was able to come to me when I needed it given my busy schedule. Highly recommend!',
+  },
+  {
+    name: 'Agustin Pagella',
+    stars: 5,
+    text: 'Did my tinting and detailing for my Porsche. Amazing job and service! Would definitely recommend to anyone. They are a mobile service so they come to you.',
+  },
+  {
+    name: 'JP',
+    stars: 5,
+    text: 'He tinted my Ford F-250 full car 20% in Weston. As summer is coming around the corner I wanted to be prepared against the heat! Came in one day and was quick — would recommend.',
+  },
+  {
+    name: 'Pjscopez',
+    stars: 5,
+    text: 'Amazing service 10/10 would recommend!',
+  },
 ]
 
 export default function ReviewsCarousel() {
