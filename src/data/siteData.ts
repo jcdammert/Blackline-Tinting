@@ -25,7 +25,7 @@ export const services = [
     tagline: 'Premium Protection at a Better Price',
     description: 'Carbon window tint offers excellent heat reduction and UV protection with a sleek matte finish. A smart choice for Florida drivers who want premium quality without the top-tier price tag.',
     metaTitle: 'Carbon Window Tint | BlackLine Tinting | South Florida',
-    metaDesc: 'Professional carbon window tint in South Florida. Excellent heat rejection, matte finish, and UV protection at a great price. Lifetime warranty. Free quote.',
+    metaDesc: 'Professional carbon window tint in South Florida. Excellent heat rejection, matte finish, and UV protection at a great price. 1-year warranty. Free quote.',
     whyHeading: 'Why Carbon Window Tint Is a Smart Choice',
     whyText: 'Carbon window tint delivers impressive performance at a price point that makes sense for most drivers. The carbon particles embedded in the film give it a distinctive matte finish that looks sharp on any vehicle, while providing solid heat rejection and UV protection. It won\'t fade to purple like cheaper dyed films, and it won\'t interfere with your electronics like metallic tints can. For South Florida drivers who want a great-looking, long-lasting tint without paying for the absolute top-of-the-line ceramic, carbon is the way to go.',
     benefits: [
@@ -34,10 +34,10 @@ export const services = [
       'Fade-proof matte finish that looks sharp for years',
       'No electronic signal interference',
       'Reduces interior fading and cracking',
-      'Lifetime warranty on every installation',
+      '1-year warranty on every installation',
     ],
     ctaHeading: 'Transparent Pricing, No Surprises',
-    ctaText: 'Contact us with your vehicle details for a free, no-obligation quote. Every installation comes with our lifetime warranty — no bubbles, no peeling, no fading, guaranteed.',
+    ctaText: 'Contact us with your vehicle details for a free, no-obligation quote. Carbon tint installations come with our 1-year warranty.',
   },
   {
     name: 'Paint Protection Film (PPF)',
