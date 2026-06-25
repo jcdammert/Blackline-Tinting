@@ -1,22 +1,34 @@
-'use client'
-
-import { useState } from 'react'
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { faqItems } from '@/data/siteData'
+import FAQAccordion from '@/components/FAQAccordion'
+
+export const metadata: Metadata = {
+  title: 'FAQ',
+  description: 'Answers to the most common questions about window tinting in South Florida — legal limits, tint percentages, how mobile service works, warranties, and more.',
+}
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map(item => ({
+    '@type': 'Question',
+    name: item.q,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.a,
+    },
+  })),
+}
 
 export default function FAQ() {
-  const [openIndex, setOpenIndex] = useState<number | null>(null)
-  const [search, setSearch] = useState('')
-
-  const filtered = search.trim()
-    ? faqItems.filter(item =>
-        item.q.toLowerCase().includes(search.toLowerCase()) ||
-        item.a.toLowerCase().includes(search.toLowerCase())
-      )
-    : faqItems
-
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+
       <section className="page-hero">
         <div className="container">
           <h1>Frequently Asked <span className="text-blue">Questions</span></h1>
@@ -26,36 +38,7 @@ export default function FAQ() {
 
       <section className="section">
         <div className="container">
-          <div className="faq-list">
-            <div className="faq-search-wrap">
-              <input
-                className="faq-search"
-                type="text"
-                placeholder="Type your question..."
-                value={search}
-                onChange={e => { setSearch(e.target.value); setOpenIndex(null) }}
-              />
-            </div>
-            {filtered.length === 0 && (
-              <p style={{ textAlign: 'center', color: 'var(--text-secondary)', padding: '32px 0' }}>
-                No results found. Try a different keyword.
-              </p>
-            )}
-            {filtered.map((item, i) => (
-              <div className={`faq-item${openIndex === i ? ' open' : ''}`} key={i}>
-                <button
-                  className="faq-question"
-                  onClick={() => setOpenIndex(openIndex === i ? null : i)}
-                >
-                  {item.q}
-                  <span className="faq-arrow">▼</span>
-                </button>
-                <div className="faq-answer">
-                  <p>{item.a}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+          <FAQAccordion />
         </div>
       </section>
 
