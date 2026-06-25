@@ -24,6 +24,14 @@ const localBusinessSchema = {
   priceRange: '$$',
   currenciesAccepted: 'USD',
   paymentAccepted: 'Visa, Mastercard, American Express, Cash',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: '1445 Sandpiper Cir',
+    addressLocality: 'Weston',
+    addressRegion: 'FL',
+    postalCode: '33327',
+    addressCountry: 'US',
+  },
   areaServed: [
     {
       '@type': 'County',

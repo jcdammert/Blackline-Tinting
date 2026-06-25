@@ -23,8 +23,8 @@ export default function About() {
             <div>
               <h2>Our Story</h2>
               <p>BlackLine Tinting was founded with a simple belief: South Florida drivers deserve premium window tinting at fair prices, with installations they can trust for the life of their vehicle.</p>
-              <p>Based in Broward County, we&apos;ve tinted thousands of vehicles — from daily commuters to luxury cars to entire commercial fleets. Every installation gets the same attention to detail, the same premium materials, and the same lifetime warranty.</p>
-              <p>We&apos;re not a franchise or a quick-service chain. We&apos;re a locally owned shop staffed by experienced technicians who genuinely care about the quality of their work. When you bring your car to BlackLine, you&apos;re getting the best tint job in South Florida — guaranteed.</p>
+              <p>Based in Weston, FL, we&apos;ve tinted thousands of vehicles across Broward, Miami-Dade, and Palm Beach counties — from daily commuters to luxury cars to entire commercial fleets. Every installation gets the same attention to detail, the same premium materials, and the same lifetime warranty.</p>
+              <p>We&apos;re not a franchise or a quick-service chain. We&apos;re a locally owned mobile service staffed by experienced technicians who genuinely care about the quality of their work. When you book with BlackLine, we come to you — and you get the best tint job in South Florida, guaranteed.</p>
             </div>
             <div className="about-image">
               <Image

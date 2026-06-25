@@ -19,6 +19,18 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     siteName: 'BlackLine Tinting',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'BlackLine Tinting — Mobile Window Tinting in South Florida',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-image.png'],
   },
 }
 

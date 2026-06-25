@@ -37,6 +37,9 @@ export default function Gallery() {
 
       <section className="section">
         <div className="container">
+          <p style={{ maxWidth: '680px', margin: '0 auto 48px', textAlign: 'center', color: 'var(--text-secondary)', lineHeight: '1.7' }}>
+            Every vehicle below was tinted by BlackLine Tinting using SunTek ceramic and carbon films. We serve Broward County, Miami-Dade County, and Palm Beach County — and we come to you. From daily drivers to exotic cars, every job gets the same precision and care.
+          </p>
           <div className="gallery-grid">
             {galleryItems.map((item, i) => (
               <div className="gallery-item" key={i}>

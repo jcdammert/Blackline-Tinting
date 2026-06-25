@@ -38,7 +38,7 @@ export default function Footer() {
             <div className="footer-contact">
               <p>📞 (954) 737-2785</p>
               <p>✉ blacklinetintingsales@gmail.com</p>
-              <p>📍 Broward County, FL</p>
+              <p>📍 1445 Sandpiper Cir, Weston FL 33327</p>
             </div>
           </div>
           <div className="footer-links">
