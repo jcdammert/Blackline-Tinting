@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { services } from '@/data/siteData'
 import { ServiceAreasGrid } from '@/components/Shared'
+import ReviewsCarousel from '@/components/ReviewsCarousel'
 
 const BASE = 'https://blacklinetinting.com'
 
@@ -113,6 +114,8 @@ export default async function ServicePage({ params }: Props) {
         </div>
       </section>
       )}
+
+      <ReviewsCarousel />
 
       <section className="cta-section">
         <div className="container">
