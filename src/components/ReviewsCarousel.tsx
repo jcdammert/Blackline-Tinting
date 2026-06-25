@@ -28,6 +28,31 @@ const reviews = [
     stars: 5,
     text: "Great job. The company provided an excellent service, explained everything in detail about the different grades, they came to my home and installed everything. I'd highly recommend them.",
   },
+  {
+    name: 'Amit Khatri',
+    stars: 5,
+    text: 'Had my Honda Pilot front windows tinted and had a great experience. The staff was professional, explained the options clearly, and completed the job quickly. The tint installation came out clean with no bubbles or imperfections. Pricing was fair, and the overall process was smooth from start to finish. Would definitely recommend.',
+  },
+  {
+    name: 'Yin Perez',
+    stars: 5,
+    text: 'Very happy with how my car turned out! Excellent service and very easy to book. Great communication as well and quick to respond to all my questions.',
+  },
+  {
+    name: 'Carlos V.',
+    stars: 5,
+    text: "Got my truck tinted with Johann and it can't get any better. He was professional, and the quality of the job is amazing. Definitely recommend!!",
+  },
+  {
+    name: 'Babu Singh',
+    stars: 5,
+    text: 'Their team of 2 installers did a great job on my Tesla Model 3 with ceramic window tints. The scheduling was easy and they came to my home within 24 hours to get the job completed. Good professional installation done by this team. Definitely recommend.',
+  },
+  {
+    name: 'Ryan Sevel',
+    stars: 5,
+    text: 'Quick service and professional tinting.',
+  },
 ]
 
 export default function ReviewsCarousel() {
