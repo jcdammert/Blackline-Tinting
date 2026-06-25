@@ -50,6 +50,13 @@ const localBusinessSchema = {
       containedInPlace: { '@type': 'State', name: 'Florida' },
     },
   ],
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '5.0',
+    reviewCount: '18',
+    bestRating: '5',
+    worstRating: '1',
+  },
   knowsAbout: [
     'Ceramic Window Tinting',
     'Carbon Window Tinting',
