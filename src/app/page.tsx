@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { CTASection, ServicesCards, ServiceAreasGrid } from '@/components/Shared'
 import GallerySlideshow from '@/components/GallerySlideshow'
+import ReviewsCarousel from '@/components/ReviewsCarousel'
 
 export const metadata: Metadata = {
   title: 'BlackLine Tinting | Professional Window Tinting in South Florida',
@@ -143,6 +144,8 @@ export default function Home() {
           <ServicesCards />
         </div>
       </section>
+
+      <ReviewsCarousel />
 
       <section className="section">
         <div className="container">

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { cities } from '@/data/siteData'
 import { CTASection, ServicesCards, ServiceAreasGrid } from '@/components/Shared'
+import ReviewsCarousel from '@/components/ReviewsCarousel'
 
 const BASE = 'https://blacklinetinting.com'
 
@@ -61,6 +62,8 @@ export default async function CityPage({ params }: Props) {
           <ServicesCards />
         </div>
       </section>
+
+      <ReviewsCarousel />
 
       <CTASection />
 

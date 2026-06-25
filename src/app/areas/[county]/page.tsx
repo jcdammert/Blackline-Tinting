@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { counties } from '@/data/siteData'
 import { CTASection } from '@/components/Shared'
+import ReviewsCarousel from '@/components/ReviewsCarousel'
 
 const BASE = 'https://blacklinetinting.com'
 
@@ -65,6 +66,8 @@ export default async function CountyPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      <ReviewsCarousel />
 
       <CTASection />
     </>
