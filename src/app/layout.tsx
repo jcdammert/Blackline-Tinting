@@ -1,6 +1,7 @@
 import Script from 'next/script'
 import type { Metadata } from 'next'
 import { Inter, DM_Serif_Display } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/next'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import './globals.css'
@@ -41,6 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main>{children}</main>
         <Footer />
+        <Analytics />
         <Script
           src="https://link.msgsndr.com/js/external-tracking.js"
           data-tracking-id="tk_621fdf5c671c4445a7bec8d3a783593e"
